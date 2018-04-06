@@ -12,3 +12,5 @@ def generate_primes
   primes
   binding.pry
 end
+
+binding.pry
