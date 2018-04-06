@@ -7,7 +7,7 @@ end
 def generate_primes
   primes = []
   for n in 1..10000
-    primes << (1.3064**3**n)
+    primes << (1.3064**3**n).round
   end
   primes
   binding.pry
